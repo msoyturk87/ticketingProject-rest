@@ -25,4 +25,5 @@ public interface ProjectService {
     List<ProjectDTO> readAllByAssignedManager(User user);
 
     List<ProjectDTO> listAllNonCompletedProjects();
+
 }

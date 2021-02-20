@@ -24,6 +24,7 @@ public class ResponseWrapper {
         this.success=true;
     }
 
+
     public ResponseWrapper(String message) {
         this.message = message;
         this.code=HttpStatus.OK.value();

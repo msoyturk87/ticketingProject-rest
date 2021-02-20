@@ -25,6 +25,7 @@ public class Task extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private Status taskStatus;
 
+
     private LocalDate assignedDate;
 
     @ManyToOne(fetch = FetchType.LAZY)

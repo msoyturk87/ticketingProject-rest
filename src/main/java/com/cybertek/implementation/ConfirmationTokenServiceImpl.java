@@ -25,6 +25,7 @@ public class ConfirmationTokenServiceImpl implements ConfirmationTokenService {
         return confirmationTokenRepository.save(confirmationToken);
     }
 
+
     @Override
     @Async
     public void sendEmail(SimpleMailMessage email) {

@@ -16,6 +16,7 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI customOpenApi(){
 
+
         SecurityScheme securitySchemeItem = new SecurityScheme();
         securitySchemeItem.setType(SecurityScheme.Type.HTTP);
         securitySchemeItem.setScheme("bearer");

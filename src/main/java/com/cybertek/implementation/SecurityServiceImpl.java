@@ -40,6 +40,7 @@ public class SecurityServiceImpl implements SecurityService {
 
     }
 
+
     @Override
     public User loadUser(String param) {
         UserDTO user =  userService.findByUserName(param);

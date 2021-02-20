@@ -16,4 +16,5 @@ public class MailDTO {
     private String subject;
     private String url;
 
+
 }

@@ -21,6 +21,7 @@ public interface TaskService {
 
     void delete(long id) throws TicketingProjectException;
 
+
     int totalNonCompletedTasks(String projectCode);
     int totalCompletedTasks(String projectCode);
 

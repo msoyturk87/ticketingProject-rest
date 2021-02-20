@@ -38,6 +38,7 @@ public class TaskServiceImpl implements TaskService {
         return mapperUtil.convert(task,new TaskDTO());
     }
 
+
     @Override
     public List<TaskDTO> listAllTasks() {
         List<Task> list = taskRepository.findAll();

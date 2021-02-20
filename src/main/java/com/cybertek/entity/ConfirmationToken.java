@@ -35,6 +35,7 @@ public class ConfirmationToken extends BaseEntity {
         return date.isEqual(now) || date.isEqual(now.plusDays(1));
     }
 
+
     public ConfirmationToken(User user){
         this.user=user;
         expireDate=LocalDate.now().plusDays(1);

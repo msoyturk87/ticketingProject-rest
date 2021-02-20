@@ -22,4 +22,5 @@ public class Role extends BaseEntity {
 
     private String description;
 
+
 }

@@ -48,6 +48,7 @@ public class UserServiceImpl implements UserService {
         return list.stream().map(obj -> mapperUtil.convert(obj,new UserDTO())).collect(Collectors.toList());
     }
 
+
     @Override
     public UserDTO findByUserName(String username) throws AccessDeniedException {
         User user = userRepository.findByUserName(username);

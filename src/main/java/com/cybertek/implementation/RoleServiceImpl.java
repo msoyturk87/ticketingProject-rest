@@ -29,6 +29,7 @@ public class RoleServiceImpl implements RoleService {
         return list.stream().map(obj -> mapperUtil.convert(obj,new RoleDTO())).collect(Collectors.toList());
     }
 
+
     @Override
     public RoleDTO findById(Long id) throws TicketingProjectException {
         Role role = roleRepository.findById(id).orElseThrow(() -> new TicketingProjectException("Role does not exists"));
